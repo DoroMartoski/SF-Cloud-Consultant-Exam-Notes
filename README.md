@@ -12,3 +12,14 @@ Org-wide defaults ==> role hierarchy ==> sharing rules ==> manual sharing ==> Te
 Profiles and permission sets provide object-level security by determining what types of data users see and whether they can edit, create oe delete records. **For each object, "View ALl" and "Modify all" permissions ignore sharing rules and settings, allowing admins to quickly grant access to records associated with a given object across the organization.
 **These permissions are preferrable alternatives to the "View All Data" and "Modify All Data" admin permissions. Difference between them is that "View ALl" and "Modify All" are for delegation of object permissions for Delegated administrators who manage records for specific objects where as "View All Data" and "Modify ALl Data" are for admin of an entire org.
 
+Users in higher hierarchy(role or territory) inherit the same data access as their subordinates for Standard objects.
+Managers gain as much access as their subordinates. This access applies to records owned by users as well as records shared with them.
+Queues can be accessed from list views. 
+Queues are available for cases, leads, orders, service contracts, knowledge article versions and custom objects.
+OWD - are used to lock down(restrict) your data and then use the other record-level security and sharing tools to selectively give access to other users.
+OWD are the only way to restrict user access to records.
+**If "Grant Access Using Hierarchies" setting under OWD is unchecked - this will prevent managers from inheriting access. 
+
+Role Hierarchy: represents a level of data access that a user or group of users need.
+Role hierarchy ensures that managers always have accessto the same data as their employees regardless of the OWD settings.
+Each org is allowed 500 roles. Best practice to keep non-portal roles to 25k and portal roles to 100k. ANd 10 role levels.
