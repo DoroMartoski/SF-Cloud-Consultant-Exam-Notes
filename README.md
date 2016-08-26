@@ -1,4 +1,4 @@
-# SF-Cloud-Consultant-Exam-Notes
+# SF-Cloud-Consultant-Exam-Notes - Sharing
 Notes from my studies for the SF Sales Cloud consultant exam.
 These notes are from my studies in preparation for the Salesforce Sales Cloud Consultant Examination. The notes in some cases may seem rudimentary as this was intended. In studying for every exam - I go into it as someone with no prior knowledge of the matter(I have more than 3 years of Salesforce experience at this time) in order to remove all sorts of knowledge bias. 
 
