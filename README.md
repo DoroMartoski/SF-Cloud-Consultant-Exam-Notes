@@ -23,3 +23,20 @@ OWD are the only way to restrict user access to records.
 Role Hierarchy: represents a level of data access that a user or group of users need.
 Role hierarchy ensures that managers always have accessto the same data as their employees regardless of the OWD settings.
 Each org is allowed 500 roles. Best practice to keep non-portal roles to 25k and portal roles to 100k. ANd 10 role levels.
+
+Uses of role hierarchy include - management access, management reporting, segregation between org branches (different business units don't see each other's data), segregation within role(one can define "leaf" node in which all data is essentially private and still roll that data up to a parent role that can see all).
+Ownership-based sharing rules - allow for exceptions to OWD settings and the role hierarchy that give additional user access to records they don't own.
+Ownership-based sharing rules are based on the record owner only.** Contact Ownership-based sharing rules don't apply to private contacts.
+E.g Share any account owned by a “Western Sales Team” user with any other user that belongs to the “Western Sales Team” role. This means that if Bob is a Western Sales Rep, any accounts that he owns will be available to any of the other Western Sales Team members.
+
+Criteria-based sharing rule: provides access to records based on the record's field values(criteria). Best Practice - keep the number of criteria-sharing rules per object to 50.
+
+Manual sharing - manual sharing is removed when the record owner changes or when the sharing access granted doesn't grant additional access beyond the object's OWD access level.
+
+Team - a group of users that work together on an account, sales opportunity or case. Record owners can build a team for each record that they own and specify access level.
+
+Territory hierarchy - structured by business units or any kind of segmentation in a hierarchical structure.
+Territories exist only on Account, opportunity and master-detail.
+
+Implicit sharing - parent implicit sharing(account only). Child implicit sharing - applies to only contact, opportunity or case.
+
