@@ -76,3 +76,20 @@ All currency amounts display in the record's currency and also converted to the 
 **If you change the start month of your organization’s fiscal year, the fiscal quarters shift and different months are regrouped into new
 quarters. This can change the forecast currency for each quarter. The new forecast currency for each quarter becomes the currency of
 the third month in that quarter.
+
+
+<b>All amounts in new accounts and contacts are imported in your personal currency.</b>
+<b>If your import is updating amounts in existing records, the amounts in your file are converted from your personal currency to the currency of the account or contact.</b>
+
+<b>Person accounts</b>
+**This is for setting up SF to operate on a B2C model.
+
+Salesforce offers two types of accounts - business and personal accounts. By default SF accounts business accounts.
+A person account can also be set up in SF to store information about individual people. Person accounts fit your customers best if they are online shoppers, gym members, vacation travelers etc.
+Depending on your company product, you could have just one type of account or both.
+
+Person accounts cannot have contacts(treat person account like you would treat contact). You can only merge person account with another person account.
+**Leads that don't have a values in the company field are converted to person accounts. Leads that do have a value in the company field are converted to business account.
+
+**You can convert business accounts to person accounts.
+
