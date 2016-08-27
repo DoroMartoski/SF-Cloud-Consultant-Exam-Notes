@@ -40,3 +40,18 @@ Territories exist only on Account, opportunity and master-detail.
 
 Implicit sharing - parent implicit sharing(account only). Child implicit sharing - applies to only contact, opportunity or case.
 
+<b>Currencies in Salesforce:</b>
+
+Corporate currency: Bases for all currency conversion rates in your org - it's also the currency your org's corporate HQ reports revenue in.
+
+Conversion Rates: this is the currency conversion rates between the corporate currency and the multiple currencies used by your organization. Maintained by your admin.
+
+Personal currency: a user's default currency for quotas, certain forecasting versions and reports. Must be one of the active currencies for your org. ** Your quota amounts display in your display currency if using Collaboarative Forecasts.
+
+Active Currency: a currency in which your org does business. Only active currencies can be entered in opportunities, forecasts and other items.
+
+Inactive currency: a currency that your organization no longer uses. **You may have existing records that uses inactive currencies but you can't enter new amounts using inactive currencies.
+
+Record currency: the default currency for a record. Every record has a currency field that specifies the currencytype for amounts in that record.
+
+Roll up summaries will not work between an object that is enabled for advanced currency management and one that is not. E.g opportunity and custom object but will work for opportunity and opportunity line item.
