@@ -55,3 +55,24 @@ Inactive currency: a currency that your organization no longer uses. **You may h
 Record currency: the default currency for a record. Every record has a currency field that specifies the currencytype for amounts in that record.
 
 Roll up summaries will not work between an object that is enabled for advanced currency management and one that is not. E.g opportunity and custom object but will work for opportunity and opportunity line item.
+
+
+** Opportunity amounts display in the record currency as well as the opportunity owner's personal currency.
+
+All currency amounts display in the record's currency and also converted to the personal currency(displayed in parenthesis) of the record owner based on conversion rates entered by admin.
+
+<b>In Quotas</b>, by default your quota amounts display in your personal currency but you can change to any of your org's active currency.
+** If using Collaborative forecast then your quota displays in your display currency.
+
+<b>In forecasts</b> admins set up forecasts for an organization and chooses a forecast currency and enable one or more types of forecasts. The forecast currency is either the organization's corporate currency or each forecast owner's personal currency.
+
+<b>In Reports</b> amounts in reports are shown in their original currencies but can be displayed in any active currency(show ==> currencies).
+**Default value for currency reporting is your personal currency. You can choose to display the converted column - e.g Annual Revenue converted - which shows amounts in the currency you select.
+
+<b>In list view Criteria and report filters</b> to limit your data to items with specific currencies or amounts, prefix currency amounts with currency code - USD for dollars.
+**All amounts are converted to the corporate currency for comparison.
+**Without currency code all amounts are assumed to be in the user's personal currency.
+
+**If you change the start month of your organization’s fiscal year, the fiscal quarters shift and different months are regrouped into new
+quarters. This can change the forecast currency for each quarter. The new forecast currency for each quarter becomes the currency of
+the third month in that quarter.
