@@ -1,4 +1,4 @@
-# SF-Cloud-Consultant-Exam-Notes - Sharing
+# SF-Cloud-Consultant-Exam-Notes
 Notes from my studies for the SF Sales Cloud consultant exam.
 These notes are from my studies in preparation for the Salesforce Sales Cloud Consultant Examination. The notes in some cases may seem rudimentary as this was intended. In studying for every exam - I go into it as someone with no prior knowledge of the matter(I have more than 3 years of Salesforce experience at this time) in order to remove all sorts of knowledge bias. 
 
@@ -93,3 +93,24 @@ Person accounts cannot have contacts(treat person account like you would treat c
 
 **You can convert business accounts to person accounts.
 
+<b>Campaign Implementations</b>
+Primary goals of a campaign are either **Lead generation (direct mail, email blasts, web seminars, conferences and trade shows) to generate prospects or **Brand building (print ads, billboards and radio shows).
+
+Two main groups of people to market ==> Existing customers and Prospects(includes existing leads and new leads).
+When marketing to existing contacts or leads you can use Salesforce reports to create your target lists.
+Categorize your campaigns to make analyzing and comparing which campaigns are the most effective by using custom campaign fields.  
+
+Each campaign in a hierarchy can have one parent and a parent can have unlimited number of children. Maximum of 5 hierarchy levels are allowed in a campaign hierarchy.
+
+To see how campaigns are influencing opportunities, consider setting up campaign influence.
+**Campaign influence tracks pipeline and revenue for multiple campaigns and ties and ties all campaigns of a contact role to that opportunity for pipeline and ROI reporting.
+
+You can create a campaign picklist called focus area or product to categorize your campaigns based on their focus.
+
+**For the several segments such as type of ads you run, type of publications you can essentially create campaign picklists for each of the specifically to hold values related to them.
+
+**By default all users have read access to campaigns but marketing users have read, create, edit and delete access.
+
+Marketing users can run campaign reports, configure advanced campaign setup including managing letterheads, html email templates and public documents and mass manage campaign membership.
+
+ 
