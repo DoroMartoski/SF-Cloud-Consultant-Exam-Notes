@@ -144,3 +144,25 @@ Campaign revenue report => to analyze which oppties have resulted from your camp
 Campaign with influenced opportunities report => to view oppties that are influenced by each of your campaigns.
 
 Campaign member report => to view the members of campaigns.
+
+Territory management => account sharing system that grants access to accounts based on characteristics of the accounts.
+
+Enables your company to structure your Salesforce data and users the same way you structure your sales territories.
+
+Territory management provides solution for structuring your users, accounts and their associated contacts, opportunities and cases.
+
+** Account ownership and its effect on a record sharing remains valid and unchanged when territory management is in use.
+
+***Key benefits of Territory Management:
+*Ability to use account criteria to expand a private sharing model.
+*Support for complex and frequently changed sales organization structures.
+*Support for transferring users between territories, with option to retain opportunities.
+*Multiple forecasts per user, based on territory membership.
+*Territory-based sales reports.
+
+**Territory => a flexible collection of accounts and users where the users have at least read access to the accounts regardless of who owns the account.
+
+Users in a territory can be granted read, read/write or owner-like access to the accounts in a territory.
+
+**You can control user access to the opportunities and cases associated with the accounts in the territory regardless of who owns the records. 
+
