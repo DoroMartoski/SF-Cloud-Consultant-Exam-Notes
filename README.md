@@ -166,3 +166,19 @@ Users in a territory can be granted read, read/write or owner-like access to the
 
 **You can control user access to the opportunities and cases associated with the accounts in the territory regardless of who owns the records. 
 
+Territory Hierarchy => territories exist in a hierarchy and can be set up with as many nested levels as needed.
+
+Territory hierarchies can be defined however needed and not just geography based.
+
+The territory hierarchy  also becomes the forecast hierarchy once territory management is enabled.
+
+Forecast data is derived from the opportunities that are associated with the accounts in your territories.
+
+Users have different forecast for each territory to which they are assigned.
+
+**Forecast manager => the user to whom forecasts from child and lower-level territories roll up. Only modifiable by clicking Change on the territory detail page.
+**The forecast manager can administer lower territories in the hierarchy.
+
+**For every territory 2 sharing groups are created - one for the territory and another for the territory and its children.
+
+**Users are listed as group members only when the group is used in the sharing rules or manual record sharing.
