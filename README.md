@@ -126,3 +126,21 @@ Every campaign has a specific outcome and in SF this is captured by the values i
 All users have read access to Campaigns but only users with the Marketing user check box checked on their user account can CRUD.
 Marketing users can mass manage campaign membership.
 If campaign hierarchy statistics are enabled, a user can aggregate data for a parent campaign and all the campaigns below it in the hierarchy regardless of whether that user has sharing rights to a particular campaign within the hierarchy.
+
+Create all campaign sharing rules prior to changing your organization-wide default to reduce the effect the change has on your users.
+
+Use manual sharing when there's a need for segmenting visibility between business units - E.g a regional marketing manager who owns multiple campaigns and needs to segment visibility between business units.
+
+The campaignROI Analysis report calculates the ROI and average costs for your campaigns. ROI calaculated as (Total Value Opps-Actual cost)/Actual cost expressed as a %.
+
+Campaign leads/ campaign contacts reports => lists leads or contacts associated with a campaign.
+
+Campaign Call down report or Campaigns with Campaign members report(for multiple campaigns) shows info about leads and contacts.
+
+Campaign member analysis report => summarize info about who has responded to campaigns.
+
+Campaign revenue report => to analyze which oppties have resulted from your campaigns. You can also analyze products and revenue schedules in this report.
+
+Campaign with influenced opportunities report => to view oppties that are influenced by each of your campaigns.
+
+Campaign member report => to view the members of campaigns.
