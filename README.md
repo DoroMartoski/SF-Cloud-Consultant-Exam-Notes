@@ -113,4 +113,16 @@ You can create a campaign picklist called focus area or product to categorize yo
 
 Marketing users can run campaign reports, configure advanced campaign setup including managing letterheads, html email templates and public documents and mass manage campaign membership.
 
- 
+
+Aims of a campaign are lead generation and brand building.
+U can easily track the effectiveness of lead generation campaigns such as direct mail, email blasts, web seminars, conferences and trade shows.
+Add a picklist field called campaign goal with values of lead generation and brand building to analyze your marketing budget by campaign goal.
+Use SF leads reports and list views to create target lists of existing leads for a campaign.
+Existing customers,prospects(leads in SF) and new leads are the main target groups for marketing of goods and services.
+Need to consider how you want to analyze and report on your campaigns when planning how to categorize campaigns.
+Set up campaign influence to see how your campaigns are influencing opportunities.
+Campaign influence tracks pipeline and revenue for multiple campaigns and ties all campaigns of a contact role to that opportunity for pipeline and ROI reporting.
+Every campaign has a specific outcome and in SF this is captured by the values in the Member Status(e.g sent, No Response, Registered-Attended etc)
+All users have read access to Campaigns but only users with the Marketing user check box checked on their user account can CRUD.
+Marketing users can mass manage campaign membership.
+If campaign hierarchy statistics are enabled, a user can aggregate data for a parent campaign and all the campaigns below it in the hierarchy regardless of whether that user has sharing rights to a particular campaign within the hierarchy.
