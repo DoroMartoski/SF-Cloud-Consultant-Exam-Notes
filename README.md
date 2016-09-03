@@ -177,7 +177,11 @@ Forecast data is derived from the opportunities that are associated with the acc
 Users have different forecast for each territory to which they are assigned.
 
 **Forecast manager => the user to whom forecasts from child and lower-level territories roll up. Only modifiable by clicking Change on the territory detail page.
-**The forecast manager can administer lower territories in the hierarchy.
+**The forecast manager can administer lower territories in the hierarchy - a territory can only have one forecast manager.
+**Forecast managers can receive opportunities when account assignment rules are run.
+**Forecast managers can receive opportunities when users are transferred out of or removed
+from a territory
+**If a territory has no forecast manager, there is no forecast for that territory.
 
 **For every territory 2 sharing groups are created - one for the territory and another for the territory and its children.
 
