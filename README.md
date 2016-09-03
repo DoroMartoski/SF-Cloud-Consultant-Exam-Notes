@@ -1,6 +1,5 @@
 # SF-Cloud-Consultant-Exam-Notes
 Notes from my studies for the SF Sales Cloud consultant exam.
-These notes are from my studies in preparation for the Salesforce Sales Cloud Consultant Examination. The notes in some cases may seem rudimentary as this was intended. In studying for every exam - I go into it as someone with no prior knowledge of the matter(I have more than 3 years of Salesforce experience at this time) in order to remove all sorts of knowledge bias. 
 
 Record level security gives users access to some object records but not others High volume customer portal license users - including community and service cloud license users - do not utilize the sharing model. HVCU licenses have their own sharing model that works by foreign key match between the portal user and the data on Account and contact lookups.
 HVCU license is only used for the Customer Portal and not the partner Portal.
